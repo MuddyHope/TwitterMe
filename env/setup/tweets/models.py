@@ -7,4 +7,4 @@ class Tweets(models.Model):
     image = models.FileField(upload_to= 'templates/', blank= True, null = True)
 
     def __str__(self):
-        return self.id
+        return self.content
